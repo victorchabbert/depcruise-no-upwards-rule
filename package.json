@@ -1,0 +1,15 @@
+{
+  "name": "depcruiser-no-upward-rule",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "dependency-cruiser": "^4.19.1"
+  },
+  "scripts": {
+    "dc:graph": "depcruise --exclude '^node_modules' --output-type dot src | dot -Gsplines=ortho -T svg > expected.svg",
+    "dc:osage": "depcruise --exclude '^node_modules' --output-type dot src | osage -Gpack=16 -Gsplines=ortho -GpackMode=array2 -T svg > expected.svg",
+    "dc:check": "depcruise --validate .dependency-cruiser.js src"
+  }
+}
