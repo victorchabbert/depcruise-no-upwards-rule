@@ -128,3 +128,8 @@ I'm not sure how to go forward now.
 Any help is greatly appreciated :pray:
 
 Thanks and good luck !
+
+## Get in touch with me :
+Through issues here.
+
+On twitter : [@victor_chabbert](https://twitter.com/victor_chabbert)
